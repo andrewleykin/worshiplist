@@ -1,3 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
 span {
 	display: block;
+    margin-bottom: 10px;
+    padding: 15px;
+}
+
+.list {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+}
+
+.js-button {
+  width: 100%;
+  min-width: 200px;
+  height: 50px;
+  background: orange;
+  color: black;
+  cursor: pointer;
+  outline: none;
+}
+
+.subtitle {
+  font-style: 20px;
+  background: blue;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.subtitle:nth-child(1)::after {
+  content: "Прославление";
+}
+
+.subtitle:nth-child(6)::after {
+  content: "Переходная";
+}
+
+.subtitle:nth-child(9)::after {
+  content: "Поклонение";
 }
