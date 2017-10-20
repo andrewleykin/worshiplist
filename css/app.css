@@ -8,7 +8,12 @@
 span {
 	display: block;
     margin-bottom: 10px;
-    padding: 15px;
+    padding: 0 15px;
+}
+
+.checkbox {
+    margin-bottom: 10px;
+    padding: 0 15px;
 }
 
 .list {
