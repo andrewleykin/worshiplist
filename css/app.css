@@ -53,3 +53,15 @@ span {
 .subtitle:nth-child(9)::after {
   content: "Поклонение";
 }
+
+.subtitle:nth-child(15)::after {
+  content: "Причастие";
+}
+
+.prichastie, .sobranie {
+  transition: all .2s linear;
+}
+
+.no-opacity {
+  opacity: 0;
+}
